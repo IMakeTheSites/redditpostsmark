@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/expresso/dev/applyin/RedditPostsMark/RedditPostsMark.csproj": {}
+  },
+  "projects": {
+    "/Users/expresso/dev/applyin/RedditPostsMark/RedditPostsMark.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/expresso/dev/applyin/RedditPostsMark/RedditPostsMark.csproj",
+        "projectName": "RedditPostsMark",
+        "projectPath": "/Users/expresso/dev/applyin/RedditPostsMark/RedditPostsMark.csproj",
+        "packagesPath": "/Users/expresso/.nuget/packages/",
+        "outputPath": "/Users/expresso/dev/applyin/RedditPostsMark/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/expresso/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.Core": {
+              "target": "Package",
+              "version": "[1.42.0, )"
+            },
+            "Azure.Identity": {
+              "target": "Package",
+              "version": "[1.12.0, )"
+            },
+            "Azure.Security.Keyvault.Secrets": {
+              "target": "Package",
+              "version": "[4.6.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Reddit": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
